@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(202, 227, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+.form{
+    margin: 5% 10%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inputs p{
+    color: rgb(106,122,123);
+    font-size: large;
+    letter-spacing: 4px;
+}
+p{
+    color: rgb(106,122,123);
+}
+.second_tip_percent{
+    margin-top: 20px;
+}
+.first_tip_percent button{
+    padding: 10px 40px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    background-color: rgb(46,102,108);
+}
+.second_tip_percent button{
+    padding: 10px 35px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    background-color: rgb(46,102,108);
+}
+.second_tip_percent input{
+    width: 115px;
+    margin-left: 20px;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(202, 227, 230);
+    border: none;
+}
+#bill{
+    border: none;
+    width: 100%;
+    height: 40px;
+    background: rgb(244, 248, 250) url("images/icon-dollar.svg") no-repeat left;
+    text-align: right;
+    background-position: 10px;
+    padding-right: 20px;
+    border-radius: 6px;
+}
+#active{
+    background-color: rgb(116, 116, 116);
+    color: rgb(27, 70, 74);
+}
+.custom{
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+#num_people{
+    border: none;
+    width: 100%;
+    height: 40px;
+    background: rgb(244, 248, 250) url("images/icon-person.svg") no-repeat left;
+    text-align: right;
+    background-position: 10px;
+    padding-right: 20px;
+    border-radius: 6px;
+}
+.col-6 h1{
+    color: rgb(84, 168, 150);
+    font-weight: 900;
+}
+.total{
+    margin-top: 3%;
+}
+.inputs{
+    padding: 5% 10%;
+}
+.answers{
+    background-color: rgb(27, 70, 74);
+    border-radius: 30px;
+    padding: 30px 20px;
+    width: 45%;
+    margin: 50px 0px;
+    text-align: center;
+}
+.reset{
+    border: none;
+    background-color: rgb(46,102,108);
+    color: aliceblue;
+    width: 100%;
+    margin-top: 30%;
+    padding: 10px 0px;
+    letter-spacing: 6px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1200px) {
+    .col-lg-6{
+        width: 80%;
+        display: block;
+        margin: auto auto 5%;
+    }
+}
+@media only screen and (max-width:991px) {
+    .first_tip_percent button, .second_tip_percent button, .second_tip_percent input{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .second_tip_percent input{
+        height: 50px;
+    }
+    .second_tip_percent{
+        margin-top: 0;
+    }
+}
